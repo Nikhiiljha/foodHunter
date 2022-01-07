@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../_fast-food-restaurant.jpg);
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+ul{
+    float:right;
+list-style-type:none;
+margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a {
+    text-decoration:none;
+    color: rgba(245, 245, 245, 0.932);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+
+}
+.title h1{
+    color: white;
+    font-size: 80px;
+}
+.button{
+    position: absolute;
+    top: 70%;
+    align-items: center;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%)
+
+}
+.btn{
+    border:1px solid #fff ;
+    padding: 10px 20px;
+    color: white;
+    text-decoration-color: none;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+.btn:hover{
+    background-color: white;
+    color:#000;
+
+}
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    align-items: baseline;
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
